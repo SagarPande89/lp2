@@ -2,7 +2,7 @@
 # Installing web server
 Install-WindowsFeature-name Web-Server -IncludeManagementTools
 # Getting website code
-wget  https://aws-tc-largeobjects.s3.us-west-2.amazonaws.com/CUR-TF-100-EDCOMP-1-DEV/lab-01-ec2/code.zip -outfile"C:\Users\Administrator\Downloads\code.zip";
+wget  https://aws-tc-largeobjects.s3.us-west-2.amazonaws.com/CUR-TF-100-EDCOMP-1-DEV/lab-01-ec2/code.zip -outfile"C:\Users\Administrator\Downloads\code.zip"
 # Unzipping website code  
 Add-Type -AssemblyNameSystem.IO.Compression.FileSystem
 function Unzip
